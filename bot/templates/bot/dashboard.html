@@ -1,0 +1,10 @@
+{% extends "bot/base.html" %}
+
+{% block content %}
+<h2>Добро пожаловать, {{ profile.email }}</h2>
+<p>Ваша зона: <b>{{ profile.zone }}</b></p>
+<form method="post">
+  {% csrf_token %}
+  <button type="submit">Запустить бронирование</button>
+</form>
+{% endblock %}

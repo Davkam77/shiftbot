@@ -1,0 +1,55 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Virtualenv
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Django/Database
+db.sqlite3
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Migrations cache (если надо)
+**/migrations/__pycache__/
+
+# Static files (если будут сгенерированные)
+staticfiles/
+media/
+
+# Secret configs
+*.env
+.env.*
+
+# Пароли и ключи
+*.key
+*.pem
+
+# Паркет/CSV и прочие данные
+*.parquet
+*.csv
+*.tsv
+
+# Selenium
+chromedriver.exe
+chromedriver.log
